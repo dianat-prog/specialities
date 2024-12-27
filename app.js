@@ -36,7 +36,7 @@ app.get('/qas',(req,res)=>{
   });
  
  //Servidor escuchando
- app.listen(3100,()=>{
-    console.log(`Server listening on port http://localhost:3100`)
-    //   console.log(`Server listening on port http://localhost:${app.port}`)
+ app.listen(3000,()=>{
+    console.log(`Server listening on port http://localhost:3000`)
+    
  })
